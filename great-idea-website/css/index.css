@@ -65,105 +65,96 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
+	width: 876px;
 	margin: 0 auto;
-	width: 889px;
 }
-.navigation {
-	display: inline-block;
-}
-.navigation a{
-	color: #adadad;
-	display: inline-block;
-	height: 50px;
-	width: 100px;
+.navigation a {
 	text-decoration: none;
-	padding: 20px 0px 20px 20px;
-	font-size: 14px;
-	margin-top: 20px;
+	color: #adadad;
+	font-size: 15px;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin: 20px 10px 0px 0px;
+	padding: 20px 30px 0px 0px;
+}
+.navigation a:hover {
+	color: black;
 }
 .logo {
+	display: inline-block;
 	vertical-align: top;
-	display:inline-block;
-	padding: 26px 0px 20px 50px;
-	margin-left: 20px;
+	padding: 26px 0px 0px 8px;
 }
 h1 {
-	display: inline-block;
 	font-size: 70px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 49.5%;
+	padding: 50px;
+	margin: 50px 0px 0px 0px;
+}
+.headerImage {
+	display: inline-block;
 	width: 49.5%;
 	vertical-align: top;
-	text-align: center;
-	padding: 20px 40px 0px 60px;
-	margin: 70px 0px 0px 0px;
+	padding: 50px 0px 50px 60px;
 }
 .button {
-	display: inline-block;
-	padding: 7px 30px;
-	border: 1px solid black;
-	font-size: 18px;
 	font-family: 'Titillium Web';
-	color: black;
-	margin-bottom: 40px
-}
-.topImage{
+	font-size: 14px;
+	color: #4f4f4f;
 	display: inline-block;
-	vertical-align: top;
-	width: 49.5%;
-	padding: 50px 40px 50px 60px;
+	padding: 6px 36px;
+	border: 1px solid black;
+	text-decoration: none;
 }
-.logo {
-	display: inline-block;
-	vertical-align: top;
+.button:hover {
+	background: black;
+	color: white;
 }
-.borderLineOne {
+.BorderLine {
 	border-top: 1px solid black;
 	margin: 20px 0px;
 }
-.borderLineTwo {
-	border-top: 1px solid black;
+.topSection1 {
+	display: inline-block;
+	width: 49.5%;
 	margin: 20px 0px;
 }
-.topContentOne {
+.topSection2 {
 	display: inline-block;
-	vertical-align: top;
 	width: 49.5%;
-	padding: 20px 0px;
-}
-.topContentTwo {
-	display: inline-block;
-	vertical-align: top;
-	width: 49.5%;
-	padding: 20px 0px;
+	margin: 20px 0px;
 }
 .middle-img {
-	padding: 30px 0px;
+	margin: 20px 0px;
 }
-.bottomContentOne {
+.bottomSection1 {
 	display: inline-block;
 	width: 33%;
-	padding: 20px 0px;
+	margin: 20px 0px;
 }
-.bottomContentTwo {
+.bottomSection2 {
 	display: inline-block;
 	width: 33%;
-	padding: 20px 0px;
+	margin: 20px 0px;
 }
-.bottomContentThree {
+.bottomSection3 {
 	display: inline-block;
 	width: 33%;
-	padding: 20px 0px;
+	margin: 20px 0px;
 }
-.contact{
+.contact {
 	display: inline-block;
-	padding: 30px 0px;
+	text-align: left;
+	margin: 20px 0px 0px 0px;
 }
 .contact p{
-	padding: 10px 0px;
+	margin: 20px 0px;
 }
-.footer {
+.copyright {
 	text-align: center;
-	padding: 10px 0px 30px 0px;
-}
-.navigation:first-child {
-	padding-left: 0px;
+	padding: 20px 0px 70px 0px;
 }
