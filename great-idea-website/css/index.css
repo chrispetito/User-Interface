@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	margin: 0 auto;
+	width: 889px;
+}
+.navigation {
+	display: inline-block;
+}
+.navigation a{
+	color: #adadad;
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	text-decoration: none;
+	padding: 20px 0px 20px 20px;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.logo {
+	vertical-align: top;
+	display:inline-block;
+	padding: 26px 0px 20px 50px;
+	margin-left: 20px;
+}
+h1 {
+	display: inline-block;
+	font-size: 70px;
+	width: 49.5%;
+	vertical-align: top;
+	text-align: center;
+	padding: 20px 40px 0px 60px;
+	margin: 70px 0px 0px 0px;
+}
+.button {
+	display: inline-block;
+	padding: 7px 30px;
+	border: 1px solid black;
+	font-size: 18px;
+	font-family: 'Titillium Web';
+	color: black;
+	margin-bottom: 40px
+}
+.topImage{
+	display: inline-block;
+	vertical-align: top;
+	width: 49.5%;
+	padding: 50px 40px 50px 60px;
+}
+.logo {
+	display: inline-block;
+	vertical-align: top;
+}
+.borderLineOne {
+	border-top: 1px solid black;
+	margin: 20px 0px;
+}
+.borderLineTwo {
+	border-top: 1px solid black;
+	margin: 20px 0px;
+}
+.topContentOne {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.5%;
+	padding: 20px 0px;
+}
+.topContentTwo {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.5%;
+	padding: 20px 0px;
+}
+.middle-img {
+	padding: 30px 0px;
+}
+.bottomContentOne {
+	display: inline-block;
+	width: 33%;
+	padding: 20px 0px;
+}
+.bottomContentTwo {
+	display: inline-block;
+	width: 33%;
+	padding: 20px 0px;
+}
+.bottomContentThree {
+	display: inline-block;
+	width: 33%;
+	padding: 20px 0px;
+}
+.contact{
+	display: inline-block;
+	padding: 30px 0px;
+}
+.contact p{
+	padding: 10px 0px;
+}
+.footer {
+	text-align: center;
+	padding: 10px 0px 30px 0px;
+}
+.navigation:first-child {
+	padding-left: 0px;
+}
